@@ -1,0 +1,35 @@
+# Robots.txt for Bastiseva.in
+# Allow all search engines to crawl the website
+
+User-agent: *
+Allow: /
+
+# Disallow admin or private sections (if any in future)
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://bastiseva.in/sitemap.xml
+
+# Crawl-delay (optional - helps prevent server overload)
+Crawl-delay: 1
+
+# Allow specific search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block bad bots (optional)
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
